@@ -11,10 +11,16 @@
         tools:context=".MainActivity">
 
     <Button
-            android:id="@+id/button"
+            android:id="@+id/buttonSDF"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="tap"/>
+            android:text="Sheet Dialog Fragment"/>
+
+    <Button
+            android:id="@+id/buttonSD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sheet Dialog"/>
 
     <TextView
             android:id="@+id/textView"
